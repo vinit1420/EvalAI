@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosClient = axios.create({
-  baseURL: "https://evalai-hfso.onrender.com",
+  baseURL: "https://evalai-hfso.onrender.com/api",
 });
 
 axiosClient.interceptors.request.use((config) => {
